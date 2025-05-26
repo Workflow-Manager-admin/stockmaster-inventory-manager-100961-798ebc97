@@ -50,14 +50,7 @@ function classNames(...arr) {
   return arr.filter(Boolean).join(" ");
 }
 
-function SectionTitle({ icon, children }) {
-  return (
-    <div className="flex items-center gap-2 text-lg font-semibold mb-2">
-      {icon}
-      {children}
-    </div>
-  );
-}
+
 
 function InventoryTable({ filter, setFilter }) {
   // Filter by SKU, name, or category (case-insensitive)
