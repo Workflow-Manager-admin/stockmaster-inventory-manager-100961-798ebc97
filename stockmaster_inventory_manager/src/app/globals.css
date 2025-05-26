@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* ColorCraft Brand Palette */
+  --primary: #10f455;
+  --secondary: #4FD1C5;
+  --accent: #F6E05E;
 }
 
 @theme inline {
